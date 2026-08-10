@@ -30,10 +30,13 @@ gets mined for patterns later.
 
 ## Source
 
-`Manual`, `Email`, `Voice`, `Telegram`. As of 2026-08-10, real usage is
-almost entirely `Telegram` — the other three sources exist in the
-schema, but the actual capture pipeline is Telegram-driven, through an
-n8n automation this repo does not own or modify.
+`Manual`, `Email`, `Voice`, `Telegram`, `Claude Code`. Historical
+capture (through 2026-08-10) is almost entirely `Telegram`, via an n8n
+automation this repo does not own or modify. `Claude Code` was added
+to the schema the same day, per Kyle's stated direction to interface
+with Second Brain through Claude Code going forward instead of
+Telegram/n8n — see `capture.md` for how a session should actually
+write one of these.
 
 ## Tags
 

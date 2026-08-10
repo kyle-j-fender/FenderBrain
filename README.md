@@ -12,6 +12,9 @@ This repo holds no code and no build. What it holds:
   actually means: `Type`, `Status`, `Source`, `Tags`, `Confidence`,
   and how they relate to the other five Fender household repos' own
   domains.
+- `second-brain/capture.md` — how a Claude Code session should
+  actually capture a new item, now that Kyle interfaces with Second
+  Brain through Claude Code rather than Telegram/n8n.
 - `second-brain/triage.md` — how a captured item should move from
   `Inbox` to `Done`/`Archive`, and what a low or missing `Confidence`
   score should trigger.
@@ -28,9 +31,12 @@ This repo holds no code and no build. What it holds:
 
 The **Second Brain** Notion database
 (`https://www.notion.so/2ee6736317068086be5be579adcc98d0`) is where
-capture actually happens — a live Telegram → n8n → Notion pipeline
-this repo does not own, run, or modify. FenderBrain documents how to
-use it well; it doesn't replace it.
+capture actually happens — FenderBrain documents how to use it well;
+it doesn't replace the database itself. The capture *path* is
+changing: historically a Telegram → n8n → Notion pipeline this repo
+never owned, going forward Kyle interfaces with it through Claude Code
+directly (`second-brain/capture.md`). This repo still doesn't own or
+modify the n8n workflow — retiring it is Kyle's own operational call.
 
 ## Why this repo exists this way
 

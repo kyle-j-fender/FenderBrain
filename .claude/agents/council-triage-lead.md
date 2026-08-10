@@ -43,7 +43,13 @@ advice unmoored from what this database actually holds.
 This is Kyle's own personal capture system — no joint household
 authority applies here the way it does in FenderFinance or
 youngadults.whc, though items tagged into those domains should be
-handed to their own seats, not decided here.
+handed to their own seats, not decided here. As of 2026-08-10, capture
+happens through a live Claude Code session using Notion's tools
+directly (`second-brain/capture.md` in FenderBrain), replacing the
+prior Telegram/n8n pipeline — don't treat a decision about that
+capture flow itself as the deferred "automation code" question unless
+it involves writes that happen *without* a live conversation driving
+them.
 
 If you're contacted a second time with other voices' positions
 attached, you're being asked for cross-examination, not a fresh

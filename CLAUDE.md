@@ -17,6 +17,14 @@ now FenderCouncil's sixth integrating repo: it carries a
 plus its own `council-triage-lead` domain seat) and a
 `.claude/skills/council/SKILL.md`.
 
+Kyle's stated direction, the same day: he interfaces with Second Brain
+through Claude Code going forward, replacing the Telegram bot → n8n
+pipeline as the capture path. See `second-brain/capture.md` for
+exactly how a Claude Code session should capture an item — this is
+conversational tool use in a live session, not the automation-code
+option the founding session deferred (see the next section for that
+line).
+
 ## What this repo is for
 
 One thing right now: write down the second-brain concept honestly —
@@ -32,7 +40,13 @@ pipeline.
   integration that would read from or write to the Second Brain
   database programmatically. Extending or replacing the n8n workflow
   is its own future decision, not something that grows organically out
-  of a documentation change here.
+  of a documentation change here. This does **not** cover a live
+  Claude Code session using Notion's tools turn by turn in a
+  human-directed conversation (`second-brain/capture.md`) — that's the
+  documented, intended interaction model, not the deferred option. The
+  line is unattended writes: a scheduled job, webhook, or standing
+  script that writes without a conversation happening right then still
+  needs its own council session first.
 - **Ground everything in the real Notion schema, not generic
   second-brain/PKM advice.** `second-brain/taxonomy.md` should read
   like it actually knows the `Type`/`Status`/`Tags`/`Confidence`

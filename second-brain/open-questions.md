@@ -15,7 +15,11 @@ already co-mingles three different sensitivity levels in one place:
 Kyle's employer's internal work details (Chick-fil-A, Oracle
 Maintenance Management access), his personal financial data (tax
 return items, account balances feeding automation), and third parties'
-personal data (named individuals' prayer requests).
+personal data (named individuals' prayer requests). Kyle's move to
+capture via Claude Code (`capture.md`, same day) adds a second access
+path on top of the original one — a Claude Code session's own Notion
+connector access — rather than replacing it as a review target; both
+need to be in scope once this review happens.
 
 **Status:** unresolved as of 2026-08-10. Flagged by the council's
 Sentinel seat.
