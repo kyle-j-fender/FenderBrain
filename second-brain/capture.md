@@ -57,6 +57,32 @@ noted in the founding session), aren't affected by this doc; actually
 retiring the n8n workflow is Kyle's own operational call to make
 outside this repo, not something FenderBrain does for him.
 
+## Weekly Monday work capture
+
+Kyle's team sets current-week objectives and reviews last week's wins
+every Monday; Kyle's own contribution to that is grounded in this
+repo's work. The pattern (see `taxonomy.md`'s "Work items" section for
+the system-of-record split it depends on):
+
+1. **Wins and objectives themselves are pulled live from
+   pm_oraclecmms and the Notion Work Tasks Tracker**, not re-typed into
+   Second Brain — status changes in `registry/story-index.md`
+   (Backlog → In Progress → Done) and the Tasks Tracker's own `Status`
+   field are already the system of record for that. Second Brain isn't
+   a second place to log the same status.
+2. **Second Brain's job on a Monday is to catch anything new** that
+   comes up in the conversation and doesn't have a home yet in either
+   of those two systems — capture it as a normal `Task`/`Note` per the
+   steps above (`Status: Inbox`, `Source: Claude Code`), to be triaged
+   and promoted later like any other captured item.
+3. This is still a live, human-directed Claude Code session each
+   Monday, same as any other capture — not a standing script. A
+   scheduled reminder to *start* that session is fine (it doesn't write
+   to Notion by itself); a scheduled job that writes to Second Brain
+   *without* Kyle in the conversation is the deferred automation-code
+   option and needs its own council session first, per the "What this
+   is, and isn't" section above.
+
 ## Open item
 
 Switching the capture surface to Claude Code doesn't resolve the

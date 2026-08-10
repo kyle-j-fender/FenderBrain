@@ -75,3 +75,31 @@ itself relates back to Second Brain rows and to a `Report` data
 source. This confirms downstream automation already exists beyond raw
 capture — treat any change to a `Financial`-typed item as potentially
 touching that downstream report, not just the row itself.
+
+## Work items: Second Brain vs. the Work Tasks Tracker vs. pm_oraclecmms
+
+As of an audit on 2026-08-10, three separate places can describe the
+same piece of Kyle's Chick-fil-A work, and they are **not** meant to
+duplicate each other. Each has one job:
+
+| System | Job |
+|---|---|
+| `pm_oraclecmms` | System of record for formal Oracle CMMS Epic/User Story work — durable, versioned, documented (`registry/story-index.md`). |
+| Notion **Work Tasks Tracker** (`https://www.notion.so/32e67363170680439bb6ee7adc203b74`) | System of record for day-to-day/team-visible work that doesn't rise to a formal Story — decks, QBRs, training, items tied to a 1:1. |
+| **Second Brain** (`Type: Task`, tagged `Work`/`Chick-fil-A`) | Capture and triage only. Not a third system of record. |
+
+A `Task` row here should exist for one of two reasons: (1) it's brand
+new and hasn't been triaged into either of the other two systems yet
+(`Status: Inbox`), or (2) it's a catch-up/cross-reference row flagged
+`Follow-Up` because it's already tracked elsewhere and needs a status
+check (see the 2026-08-10 audit rows). Once a `Follow-Up` row is
+confirmed against its real owner (a Tasks Tracker item or a
+pm_oraclecmms story), move it to `Done` here rather than letting it sit
+open as a permanent duplicate — the Tasks Tracker or the story keeps
+tracking the actual work, not this row.
+
+Do not assume a title match is a confirmed link. The 2026-08-10 audit
+found "Work on first iteration for asset routes" in the Tasks Tracker
+almost certainly overlaps `RXT-001`/`RXT-002` in pm_oraclecmms but
+could not confirm which — treat that kind of match as a prompt to ask
+Kyle, not as settled fact.
