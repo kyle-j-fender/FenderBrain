@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "repo": "FenderBrain",
+    "id_prefix": "brain",
+    "version": "1.0",
+    "last_generated": "2026-08-17",
+    "generated_by": "conversational (see notes)",
+    "window_note": "FenderBrain is documentation-only and captures/triages into the Second Brain Notion database rather than owning household action data itself (see CLAUDE.md). This file is hand-maintained/conversationally populated during a live, human-directed Claude Code session — never by a standing script that queries Notion on its own (see CLAUDE.md's 'No automation code without a separate council decision' rule and this file's own Action Section). A one-time live read of the Second Brain database was performed on 2026-08-17 to seed this snapshot: every currently-open, dated Second Brain item found either already belongs to another repo's own system of record (pm_oraclecmms/Work Tasks Tracker for Chick-fil-A work items, FenderHouse for home-audit follow-ups, youngadults.whc for Prayer/Ministry items) per taxonomy.md's 'not a third system of record' rule, or is a dateless Business Idea backlog entry not suited to a 14-day calendar placement. Rather than duplicate another repo's tracked work here, the three entries below are FenderBrain's own genuinely-unowned open items, drawn from second-brain/open-questions.md."
+  },
+  "actions": [
+    {
+      "id": "brain-0001",
+      "text": "Complete a Second Brain access & data-handling review (Notion workspace access, n8n automation's OAuth/API scopes, Telegram bot's access model, the newer Claude Code Notion connector access, and a retention/deletion policy for captured data)",
+      "category": "Second Brain Governance",
+      "priority": "important",
+      "status": "open",
+      "target_date": "",
+      "window_start": "",
+      "source": { "file": "second-brain/open-questions.md", "ref": "No documented access/data-handling review" },
+      "owner": "Kyle",
+      "notes": "Flagged by the council's Sentinel seat, 2026-08-10; unresolved. The database co-mingles employer-confidential, personal-financial, and third-party-personal data in one place, so this carries real risk despite having no natural deadline.",
+      "calendar_event_id": "",
+      "scheduled_on": ""
+    },
+    {
+      "id": "brain-0002",
+      "text": "Calibrate the Second Brain Confidence field: define what model/process produces it, what a given score means, what threshold should trigger human review, and who reviews low-confidence items",
+      "category": "Second Brain Governance",
+      "priority": "routine",
+      "status": "open",
+      "target_date": "",
+      "window_start": "",
+      "source": { "file": "second-brain/open-questions.md", "ref": "Confidence field is uncalibrated" },
+      "owner": "Kyle",
+      "notes": "Flagged by the council's Realist seat, 2026-08-10; unresolved. Sample data shows scores 0-0.9 across Types with no visible pattern.",
+      "calendar_event_id": "",
+      "scheduled_on": ""
+    },
+    {
+      "id": "brain-0003",
+      "text": "Define a routing contract for handing a triaged Second Brain item to the other household repos' own decision processes once it's tagged into their domain",
+      "category": "Second Brain Governance",
+      "priority": "routine",
+      "status": "open",
+      "target_date": "",
+      "window_start": "",
+      "source": { "file": "second-brain/open-questions.md", "ref": "No routing contract with the other five repos" },
+      "owner": "Kyle",
+      "notes": "Flagged by the council's Advocate seat, 2026-08-10; unresolved. Today the only mechanism is 'a human notices' during triage (see second-brain/triage.md).",
+      "calendar_event_id": "",
+      "scheduled_on": ""
+    }
+  ]
+}

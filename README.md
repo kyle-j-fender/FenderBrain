@@ -21,6 +21,11 @@ This repo holds no code and no build. What it holds:
 - `second-brain/open-questions.md` — the gaps the founding council
   session found and hasn't resolved yet (access review, retention
   policy, Confidence calibration) — kept current, not archived.
+- `actions.json` — this repo's near-term action export for the
+  cross-repo Chief of Staff routine (built in `FenderOS`). Hand-
+  maintained/conversationally populated during a live session, never
+  by a standing script against Notion — see `CLAUDE.md`'s Action
+  Section.
 - `.claude/agents/` — the six FenderCouncil voices (five core voices
   plus `council-triage-lead`), copied verbatim from `FenderCouncil`'s
   `council/agents/`.
