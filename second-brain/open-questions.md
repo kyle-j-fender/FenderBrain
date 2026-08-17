@@ -48,6 +48,23 @@ mechanism yet beyond "a human notices."
 **Status:** unresolved as of 2026-08-10. Flagged by the council's
 Advocate seat.
 
+## Should `actions.json` ever get a live-query capability?
+
+`actions.json` (added 2026-08-17, see `CLAUDE.md`'s Action Section) is
+currently hand-maintained/conversationally populated — a live session
+may do a one-time, human-directed Notion read to refresh it, but
+nothing queries Notion unattended. If that file's manual upkeep ever
+becomes a real burden, the tempting fix is a scheduled script that
+regenerates it from Notion on its own. That is exactly the deferred
+automation-code option the founding session set aside, not a natural
+extension of adding the file, and per `second-brain/triage.md`'s "What
+triage is not" section, a recurring temptation to script something is
+itself a signal for a future council session, not a green light.
+
+**Status:** not yet a live question — no automation has been proposed.
+Logged here so a future session sees the line already drawn instead of
+re-deriving it.
+
 ## How to resolve one of these
 
 Update this file in place when Kyle actually does the review or makes
