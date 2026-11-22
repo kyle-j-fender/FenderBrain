@@ -30,6 +30,24 @@ a business idea, a note — in a conversation working from this repo:
    session guessing a number to match the old field's shape doesn't
    fix that.
 
+## When the capture is a document
+
+If what Kyle hands over is a document (a PDF, a scan, a photo of a
+letter), the original also gets kept, unchanged (agreed 2026-11-22 in
+"Second Brain, repos and Drive: who owns what"):
+
+1. Save the original to the **Fender Archive** folder in Kyle's Google
+   Drive, under `<Area>/<year>/`, named `YYYY-MM-DD_issuer_doc-type.ext`
+   using the document's own date.
+2. Capture the row as above, and set its `Drive Link` field to the
+   Drive file. Don't rely on Notion's `Files` upload as the only copy.
+3. Set the Drive file's description to name the Second Brain row.
+4. If the document belongs to a domain repo (FenderHealth,
+   FenderHouse and so on), that repo's distilled summary carries the
+   facts; the row is for the to-do or reference, not a second summary.
+5. Don't copy ID, account or card numbers from the original into the
+   row; they stay only in the original in Drive.
+
 ## What this is, and isn't
 
 This is Kyle talking to a live Claude Code session, and that session
